@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForzaSoft Solutions - Professional Software Development & Tech Consultation</title>
+    <meta name="description" content="ForzaSoft Solutions provides professional software development, tech consultation, custom web & mobile apps, and AI solutions for startups, small businesses, and students.">
+    <meta name="keywords" content="software development, tech consultation, web apps, mobile apps, AI solutions, ForzaSoft Solutions">
+    <meta name="author" content="ForzaSoft Solutions">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="ForzaSoft Solutions - Professional Software Development">
+    <meta property="og:description" content="Transform your business with our cutting-edge software development and tech consultation services.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://forzasoft-solutions.com">
+    <meta property="og:image" content="https://forzasoft-solutions.com/images/og-image.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ForzaSoft Solutions - Professional Software Development">
+    <meta name="twitter:description" content="Transform your business with our cutting-edge software development and tech consultation services.">
+    <meta name="twitter:image" content="https://forzasoft-solutions.com/images/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ForzaSoft Solutions",
+        "description": "Professional software development and tech consultation services",
+        "url": "https://forzasoft-solutions.com",
+        "logo": "https://forzasoft-solutions.com/images/logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-555-0123",
+            "contactType": "customer service",
+            "email": "info@forzasoft-solutions.com"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Tech Street",
+            "addressLocality": "San Francisco",
+            "addressRegion": "CA",
+            "postalCode": "94105",
+            "addressCountry": "US"
+        },
+        "sameAs": [
+            "https://linkedin.com/company/forzasoft-solutions",
+            "https://github.com/forzasoft-solutions",
+            "https://instagram.com/forzasoft_solutions"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="logo-animation">
+                <h1>ForzaSoft</h1>
+                <div class="loading-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <span class="logo">ForzaSoft</span>
+                    <span class="logo-subtitle">Solutions</span>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-background">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content" data-aos="fade-up">
+                    <h1 class="hero-title">
+                        Transform Your Business with 
+                        <span class="text-gradient">Cutting-Edge Technology</span>
+                    </h1>
+                    <p class="hero-description">
+                        ForzaSoft Solutions delivers innovative software development, expert tech consultation, 
+                        and AI-powered solutions to help startups, small businesses, and students achieve their digital goals.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="contact.html" class="btn btn-primary">Get Started</a>
+                        <a href="portfolio.html" class="btn btn-outline">View Our Work</a>
+                    </div>
+                    <div class="hero-stats" data-aos="fade-up" data-aos-delay="200">
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Client Satisfaction</p>
+                        </div>
+                        <div class="stat">
+                            <h3>24/7</h3>
+                            <p>Support Available</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Preview -->
+        <section class="services-preview section-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Our Core Services</h2>
+                    <p>Comprehensive technology solutions tailored to your business needs</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Software Development</h3>
+                        <p>Custom software solutions built with modern technologies and best practices to accelerate your business growth.</p>
+                        <a href="services.html#software-development" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Tech Consultation</h3>
+                        <p>Strategic technology guidance to help you make informed decisions and optimize your digital infrastructure.</p>
+                        <a href="services.html#tech-consultation" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Web & Mobile Apps</h3>
+                        <p>Responsive web applications and native mobile apps that provide seamless user experiences across all platforms.</p>
+                        <a href="services.html#web-mobile-apps" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>AI Solutions</h3>
+                        <p>Intelligent automation and machine learning solutions to streamline operations and drive innovation.</p>
+                        <a href="services.html#ai-solutions" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="why-choose-us section-padding bg-light">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Why Choose ForzaSoft Solutions?</h2>
+                    <p>We combine technical expertise with business acumen to deliver exceptional results</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-item" data-aos="fade-right" data-aos-delay="100">
+                        <div class="feature-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Fast Delivery</h3>
+                            <p>We understand the importance of time-to-market. Our agile development process ensures rapid delivery without compromising quality.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item" data-aos="fade-left" data-aos-delay="200">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Reliable & Secure</h3>
+                            <p>Security is at the core of everything we build. Our solutions are robust, scalable, and follow industry best practices.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item" data-aos="fade-right" data-aos-delay="300">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Expert Team</h3>
+                            <p>Our team of experienced developers, designers, and consultants brings years of expertise to every project.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item" data-aos="fade-left" data-aos-delay="400">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>24/7 Support</h3>
+                            <p>We provide continuous support and maintenance to ensure your solutions perform optimally at all times.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials section-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>What Our Clients Say</h2>
+                    <p>Don't just take our word for it - hear from our satisfied clients</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"ForzaSoft Solutions transformed our startup's vision into a powerful e-commerce platform. Their expertise in both technology and business strategy was invaluable."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop" alt="Sarah Johnson">
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>CEO, TechStart Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"The AI solution they developed for our inventory management reduced our operational costs by 30%. Exceptional work and ongoing support!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop" alt="Michael Chen">
+                            </div>
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>Operations Manager, RetailPro</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"As a student, I was amazed by their mentorship approach. They not only built our app but taught us valuable development practices along the way."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop" alt="Emily Rodriguez">
+                            </div>
+                            <div class="author-info">
+                                <h4>Emily Rodriguez</h4>
+                                <p>Computer Science Student</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq section-padding bg-light">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Get answers to common questions about our services and process</p>
+                </div>
+                <div class="faq-container">
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="faq-question">
+                            <h3>What types of projects do you work on?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We work on a wide range of projects including web applications, mobile apps, e-commerce platforms, AI solutions, and custom software development. Our expertise spans from simple business websites to complex enterprise applications.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="faq-question">
+                            <h3>How long does a typical project take?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Project timelines vary depending on complexity and requirements. Simple websites typically take 2-4 weeks, while complex applications can take 3-6 months. We provide detailed timelines during our initial consultation.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="faq-question">
+                            <h3>Do you provide ongoing support and maintenance?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we offer comprehensive support and maintenance packages. This includes bug fixes, security updates, performance optimization, and feature enhancements to keep your software running smoothly.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="faq-question">
+                            <h3>What technologies do you specialize in?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We specialize in modern technologies including React, Node.js, Python, JavaScript, TypeScript, cloud platforms (AWS, Azure), AI/ML frameworks, and mobile development (React Native, Flutter).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta section-padding">
+            <div class="container">
+                <div class="cta-content" data-aos="fade-up">
+                    <h2>Ready to Transform Your Business?</h2>
+                    <p>Let's discuss how we can help you achieve your technology goals. Get in touch today for a free consultation.</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+                        <a href="tel:+1-555-0123" class="btn btn-outline">Call Now: (555) 012-3456</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <h3>ForzaSoft Solutions</h3>
+                        <p>Empowering businesses with innovative technology solutions. We specialize in software development, tech consultation, and AI-powered applications that drive growth and success.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/company/forzasoft-solutions" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/forzasoft-solutions" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://instagram.com/forzasoftsolutions" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#software-development">Software Development</a></li>
+                        <li><a href="services.html#tech-consultation">Tech Consultation</a></li>
+                        <li><a href="services.html#web-mobile-apps">Web & Mobile Apps</a></li>
+                        <li><a href="services.html#ai-solutions">AI Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#" onclick="openPrivacyPolicy()">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> forzasoftsolutions@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> 9349850550</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Forza Street, kerala, India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ForzaSoft Solutions. All rights reserved. | Designed with ❤️ for innovation</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts.js"></script>
+    
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What types of projects do you work on?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We work on a wide range of projects including web applications, mobile apps, e-commerce platforms, AI solutions, and custom software development. Our expertise spans from simple business websites to complex enterprise applications."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How long does a typical project take?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Project timelines vary depending on complexity and requirements. Simple websites typically take 2-4 weeks, while complex applications can take 3-6 months. We provide detailed timelines during our initial consultation."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do you provide ongoing support and maintenance?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, we offer comprehensive support and maintenance packages. This includes bug fixes, security updates, performance optimization, and feature enhancements to keep your software running smoothly."
+                }
+            }
+        ]
+    }
+    </script>
+</body>
+</html>
